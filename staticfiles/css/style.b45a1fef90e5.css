@@ -97,7 +97,7 @@ Tags: musician, music, band, music artist, music website template, music HTML te
 */
 @font-face {
   font-family: "TrashHand";
-  src: url("../fonts/TrashHand.TTF");
+  src: url("../fonts/TrashHand.28e6ad1357c8.TTF");
 }
 /* =============================================================================
     1. CSS RESET
@@ -952,7 +952,7 @@ textarea:focus {
   border: none;
   text-indent: -9999px;
   background-color: transparent;
-  background-image: url("../img/svg/search-dark.svg");
+  background-image: url("../img/svg/search-dark.542bafc6dd59.svg");
   background-size: 13px;
   background-repeat: no-repeat;
   background-position: center;
@@ -2849,28 +2849,28 @@ textarea:focus {
 .owl-nav > .owl-prev {
   margin-left: -28px;
   top: 21px;
-  background-image: url("../img/svg/arrow-prev.svg");
+  background-image: url("../img/svg/arrow-prev.81e42213ee2e.svg");
 }
 .owl-nav > .owl-prev:hover {
-  background-image: url("../img/svg/arrow-prev.svg");
+  background-image: url("../img/svg/arrow-prev.81e42213ee2e.svg");
   opacity: 0.5;
 }
 .owl-nav > .owl-next {
   margin-left: 14px;
   top: -4px;
-  background-image: url("../img/svg/arrow-next.svg");
+  background-image: url("../img/svg/arrow-next.150ef110b3c5.svg");
 }
 .owl-nav > .owl-next:hover {
-  background-image: url("../img/svg/arrow-next.svg");
+  background-image: url("../img/svg/arrow-next.150ef110b3c5.svg");
   opacity: 0.5;
 }
 
 .dark-theme .owl-nav > .owl-prev:hover {
-  background-image: url("../img/svg/arrow-prev-white.svg");
+  background-image: url("../img/svg/arrow-prev-white.ec0606d1e04f.svg");
   opacity: 1;
 }
 .dark-theme .owl-nav > .owl-next:hover {
-  background-image: url("../img/svg/arrow-next-white.svg");
+  background-image: url("../img/svg/arrow-next-white.ce07b033b413.svg");
   opacity: 1;
 }
 
@@ -3752,7 +3752,7 @@ textarea:focus {
 }
 .woocommerce ul.products .star-rating:before {
   content: "";
-  background-image: url("../img/svg/rating-star-filled-disabled.svg");
+  background-image: url("../img/svg/rating-star-filled-disabled.bcc2640bd679.svg");
 }
 .woocommerce ul.products li.product {
   text-align: center;
@@ -4175,7 +4175,7 @@ textarea:focus {
   .stars
   a:before {
   content: "";
-  background-image: url("../img/svg/rating-star-filled-disabled.svg");
+  background-image: url("../img/svg/rating-star-filled-disabled.bcc2640bd679.svg");
   height: 16px;
   width: 100%;
   background-size: 90px 16px;
@@ -4197,7 +4197,7 @@ textarea:focus {
   .stars
   a:hover:before {
   content: "";
-  background-image: url("../img/svg/rating-star-filled-active.svg");
+  background-image: url("../img/svg/rating-star-filled-active.8888a0478b35.svg");
   height: 16px;
   width: 100%;
   background-size: 90px 16px;
@@ -4450,7 +4450,7 @@ textarea:focus {
   .comment-text
   .star-rating:before {
   content: "";
-  background-image: url("../img/svg/rating-star-filled-disabled.svg");
+  background-image: url("../img/svg/rating-star-filled-disabled.bcc2640bd679.svg");
 }
 .woocommerce #reviews #comments ol.commentlist .meta strong {
   font-weight: normal;
@@ -4466,7 +4466,7 @@ textarea:focus {
 }
 .woocommerce .star-rating:before {
   content: "";
-  background-image: url("../img/svg/rating-star-filled-disabled.svg");
+  background-image: url("../img/svg/rating-star-filled-disabled.bcc2640bd679.svg");
   height: 16px;
   width: 100%;
   background-size: 90px 16px;
@@ -4477,7 +4477,7 @@ textarea:focus {
 }
 .woocommerce .star-rating span:before {
   content: "";
-  background-image: url("../img/svg/rating-star-filled-active.svg");
+  background-image: url("../img/svg/rating-star-filled-active.8888a0478b35.svg");
   height: 16px;
   width: 100%;
   background-size: 90px 16px;
@@ -5000,13 +5000,13 @@ textarea:focus {
   width: 44px;
   height: 64px;
   margin-top: 20px;
-  background: url("../img/svg/arrow-next.svg");
+  background: url("../img/svg/arrow-next.150ef110b3c5.svg");
   background-size: 10px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .ms-skin-default .ms-nav-next:hover {
-  background: url("../img/svg/arrow-next-white.svg");
+  background: url("../img/svg/arrow-next-white.ce07b033b413.svg");
   background-size: 10px;
   background-position: center;
   background-repeat: no-repeat;
@@ -5015,13 +5015,13 @@ textarea:focus {
   width: 44px;
   height: 64px;
   margin-top: -40px;
-  background: url("../img/svg/arrow-prev.svg");
+  background: url("../img/svg/arrow-prev.81e42213ee2e.svg");
   background-size: 10px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .ms-skin-default .ms-nav-prev:hover {
-  background: url("../img/svg/arrow-prev-white.svg");
+  background: url("../img/svg/arrow-prev-white.ec0606d1e04f.svg");
   background-size: 10px;
   background-position: center;
   background-repeat: no-repeat;
@@ -5035,7 +5035,7 @@ textarea:focus {
   width: 100%;
   background-size: cover;
   bottom: -2px;
-  background-image: url(../img/svg/bkg-bottom-border.svg);
+  background-image: url("../img/svg/bkg-bottom-border.926d41b505de.svg");
 }
 
 #masterslider-blog.ms-skin-default .ms-nav-next,
@@ -5840,7 +5840,7 @@ a.download-link::after {
   box-sizing: border-box;
 }
 .widget_search form .search-submit {
-  background-image: url("../img/svg/search-dark.svg");
+  background-image: url("../img/svg/search-dark.542bafc6dd59.svg");
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
@@ -5894,7 +5894,7 @@ a.download-link::after {
   color: #aaaaaa;
 }
 .footer-widget-container .widget_search form .search-submit {
-  background-image: url("../img/svg/search-white.svg");
+  background-image: url("../img/svg/search-white.6a75ee2d82df.svg");
 }
 
 /* 6.22.6. LATEST POSTS WIDGET
@@ -7284,12 +7284,12 @@ a.download-link::after {
 }
 .page-content.custom-background.bkg-border:before {
   top: -2px;
-  background-image: url(../img/svg/bkg-top-border.svg);
+  background-image: url("../img/svg/bkg-top-border.a5090a64cd31.svg");
   background-repeat: repeat-x;
 }
 .page-content.custom-background.bkg-border:after {
   bottom: -2px;
-  background-image: url(../img/svg/bkg-bottom-border.svg);
+  background-image: url("../img/svg/bkg-bottom-border.926d41b505de.svg");
   background-repeat: repeat-x;
 }
 
@@ -7322,46 +7322,46 @@ a.download-link::after {
 }
 
 .bkg-img01 {
-  background-image: url("../img/custom/dance-01.jpg");
+  background-image: url("../img/custom/dance-01.289f152aa4f3.jpg");
 }
 
 .bkg-img02 {
-  background-image: url("../img/custom/live-02.jpg");
+  background-image: url("../img/custom/live-02.87e1db559050.jpg");
 }
 
 .bkg-img03 {
-  background-image: url("../img/custom/live-03.jpg");
+  background-image: url("../img/custom/live-03.e867cbe63a96.jpg");
 }
 
 .bkg-img04 {
-  background-image: url("../img/custom/live-01.jpg");
+  background-image: url("../img/custom/live-01.90c8161bdbca.jpg");
 }
 /* .bkg-img05 {
   background-image: url("https://scontent-dub4-1.xx.fbcdn.net/v/t1.18169-9/11145026_10153312549593909_6305877065530875689_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=4dc865&_nc_ohc=5i6Z1bOU7vUAX9vtlwW&_nc_ht=scontent-dub4-1.xx&oh=00_AfCC8wVYtY8QE8DQjF3id6DaUPROfo2XkYT-QZR0d4rJvA&oe=65C06656");
 } */
 
 .bkg-img06 {
-  background-image: url("../img/pics/bkg-img-06.jpg");
+  background-image: url("../img/pics/bkg-img-06.7e429257dd1b.jpg");
 }
 
 .bkg-img07 {
-  background-image: url("../img/pics/bkg-img-07.jpg");
+  background-image: url("../img/pics/bkg-img-07.0e3489c14762.jpg");
 }
 
 .bkg-img08 {
-  background-image: url("../img/pics/bkg-img-08.jpg");
+  background-image: url("../img/pics/bkg-img-08.0ebb3d22df01.jpg");
 }
 
 .bkg-img09 {
-  background-image: url("../img/pics/bkg-img-09.jpg");
+  background-image: url("../img/pics/bkg-img-09.5719bc82f73d.jpg");
 }
 
 .bkg-img10 {
-  background-image: url("../img/pics/bkg-img-10.jpg");
+  background-image: url("../img/pics/bkg-img-10.e5f4df13fe1a.jpg");
 }
 
 .bkg-img11 {
-  background-image: url("../img/pics/bkg-img-11.jpg");
+  background-image: url("../img/pics/bkg-img-11.6b9cd6b2b4e0.jpg");
 }
 
 /*  
@@ -7597,47 +7597,47 @@ a.download-link::after {
 }
 
 .page-title-intro {
-  background-image: url("../img/page-titles/intro-page-title.jpg");
+  background-image: url("../img/page-titles/intro-page-title.b06630d7ed13.jpg");
 }
 
 .page-title-01 {
-  background-image: url("../img/page-titles/music-band-page-title-01.jpg");
+  background-image: url("../img/page-titles/music-band-page-title-01.0a5ded46834e.jpg");
 }
 
 .page-title-02 {
-  background-image: url("../img/page-titles/music-band-page-title-02.jpg");
+  background-image: url("../img/page-titles/music-band-page-title-02.cb61460c1b26.jpg");
 }
 
 .page-title-03 {
-  background-image: url("../img/page-titles/music-artist-page-title-01.jpg");
+  background-image: url("../img/page-titles/music-artist-page-title-01.8864dc7fb95c.jpg");
 }
 
 .page-title-04 {
-  background-image: url("../img/page-titles/music-band-page-title-03.jpg");
+  background-image: url("../img/page-titles/music-band-page-title-03.b74f2497851a.jpg");
 }
 
 .page-title-05 {
-  background-image: url("../img/page-titles/music-band-page-title-04.jpg");
+  background-image: url("../img/page-titles/music-band-page-title-04.a77cd4696be9.jpg");
 }
 
 .page-title-06 {
-  background-image: url("../img/page-titles/music-band-page-title-05.jpg");
+  background-image: url("../img/page-titles/music-band-page-title-05.e796b1085cc5.jpg");
 }
 
 .page-title-07 {
-  background-image: url("../img/page-titles/music-band-page-title-06.jpg");
+  background-image: url("../img/page-titles/music-band-page-title-06.3064e6a41df4.jpg");
 }
 
 .page-title-08 {
-  background-image: url("../img/custom/acoustic-01.jpg");
+  background-image: url("../img/custom/acoustic-01.d79e1f4525f8.jpg");
 }
 
 .page-title-09 {
-  background-image: url("../img/page-titles/music-band-page-title-07.jpg");
+  background-image: url("../img/page-titles/music-band-page-title-07.a984ba07f3ef.jpg");
 }
 
 .page-title-10 {
-  background-image: url("../img/page-titles/shop-page-title.jpg");
+  background-image: url("../img/page-titles/shop-page-title.020255262725.jpg");
 }
 
 .music-band .page-title {
@@ -7663,7 +7663,7 @@ a.download-link::after {
 }
 .music-band .page-title.page-title-style-01:after {
   bottom: -2px;
-  background-image: url(../img/svg/bkg-bottom-border.svg);
+  background-image: url("../img/svg/bkg-bottom-border.926d41b505de.svg");
 }
 .music-band .page-title.page-title-style-01 .pt-heading h1 {
   text-transform: uppercase;
@@ -7689,7 +7689,7 @@ a.download-link::after {
   width: 100%;
   background-size: cover;
   bottom: -2px;
-  background-image: url(../img/svg/bkg-bottom-border.svg);
+  background-image: url("../img/svg/bkg-bottom-border.926d41b505de.svg");
 }
 
 .music-artist .page-title {
@@ -8165,7 +8165,7 @@ a.download-link::after {
   min-height: 20px;
   border: none;
   background-color: transparent;
-  background-image: url("../img/svg/search-white.svg");
+  background-image: url("../img/svg/search-white.6a75ee2d82df.svg");
   background-size: 13px;
   background-repeat: no-repeat;
   background-position: center;
