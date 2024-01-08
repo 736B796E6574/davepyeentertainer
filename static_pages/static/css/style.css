@@ -8253,8 +8253,3 @@ a.download-link::after {
 .footer-widget-container {
   list-style-type: none;
 }
-
-#logo-text {
-  border: 1px solid #fafafa;
-  padding: 5px;
-}
