@@ -1,0 +1,402 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>David Pye - The UK's most in demand vocalist/entertainer</title>
+    <!-- ... other meta tags ... -->
+
+    <link rel="shortcut icon" href="{% static 'img/favicon-blue.png' %}" />
+
+    <!-- Fonts and icon fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600&amp;subset=latin,latin-ext"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{% static 'fonts/font-awesome/css/font-awesome.min.css' %}"
+      type="text/css"
+    />
+
+    <!-- CSS  Required Files -->
+    <link
+      rel="stylesheet"
+      href="{% static 'masterslider/style/masterslider.min.css' %}"
+    />
+    <!-- Master slider main style -->
+    <link
+      rel="stylesheet"
+      href="{% static 'masterslider/skins/default/style.min.css' %}"
+    />
+    <!-- Master slider default skin -->
+    <link
+      rel="stylesheet"
+      href="{% static 'owl-carousel/owl.carousel.min.css' %}"
+    />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="{% static 'css/hamburgers.css' %}" />
+    <!-- Custom hamburger menu -->
+
+    <!-- Magnific popup plugin -->
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+    <!-- magnific popup gallery -->
+
+    <!-- CSS Default Files -->
+    <link
+      rel="stylesheet"
+      href="{% static 'bootstrap/css/bootstrap.min.css' %}"
+    />
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/color-default.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}" />
+  </head>
+
+  <body class="dark-theme">
+    <!-- LOADER START -->
+    <div id="loader">
+      <div id="loading-status"></div>
+      <!-- .loading-status end -->
+    </div>
+    <!-- #loader end -->
+
+    <!-- Header wrapper start -->
+    <div class="header-wrapper header-transparent header-style-01 clearfix">
+      <!-- #header start -->
+      <header id="header">
+        <!-- .header-inner start -->
+        <div class="header-inner">
+          <!-- .container start -->
+          <div class="container">
+            <div class="row">
+              <!-- .col-md-12 start -->
+              <div class="col-md-12">
+                <!-- .main-nav start -->
+                <div class="main-nav">
+                  <!-- .navbar.navbar-default start -->
+                  <nav class="navbar navbar-default nav-left pi-mega">
+                    <!-- .navbar-header start -->
+                    <div class="navbar-header">
+                      <!-- .logo start -->
+                      <div id="logo">
+                        <a href="{% url 'index' %}">
+                          <!-- <img
+                            src="{% static 'img/svg/musician-logo-blue-white.svg' %}"
+                            alt="Musician HTML template for music industry - musicians, bands and music blogs"
+                          /> -->
+                          <h3>David Pye - Entertainer</h3>
+                        </a>
+                      </div>
+
+                      <!-- .logo -->
+
+                      <!-- Responsive navigation buttons -->
+                      <button
+                        class="hamburger navbar-toggle hamburger--slider-r"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#main-nav"
+                        aria-expanded="false"
+                      >
+                        <span class="hamburger-box">
+                          <span class="hamburger-inner"></span>
+                        </span>
+                      </button>
+                    </div>
+                    <!-- .navbar-header end -->
+
+                    <!-- MAIN NAVIGATION -->
+                    <div id="main-nav" class="collapse navbar-collapse">
+                      <!-- navigation links start -->
+                      <ul class="nav navbar-nav">
+                        <li class="">
+                          <a href="{% url 'index' %}" class="" role="button"
+                            >Home</a
+                          >
+
+                          <ul class="dropdown-menu">
+                            <li class="current-menu-item">
+                              <a href="{% url 'index' %}">Music artist</a>
+                            </li>
+                            <li>
+                              <a href="home-page-music-band.html">Music band</a>
+                            </li>
+                            <li>
+                              <a href="home-page-music-blog.html">Music blog</a>
+                            </li>
+                            <li><a href="band-store.html">Band store</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="{% url 'index' %}#about" role="button"
+                            >About</a
+                          >
+                        </li>
+                        <li class="">
+                          <a
+                            href="{% url 'index' %}#listen-section"
+                            role="button"
+                            >Listen</a
+                          >
+
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a href="music-artist-album-view.html"
+                                >Album view</a
+                              >
+                            </li>
+                            <li>
+                              <a href="music-album-single-artist.html"
+                                >Album single</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <!-- removed "dropdown" class for time being and "menu-item-has-children"-->
+                        <li class="">
+                          <a href="{% url 'index' %}#events" role="button"
+                            >Events</a
+                          >
+
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a href="events-clean.html">Events clean</a>
+                            </li>
+                            <li>
+                              <a href="events-single-clean.html"
+                                >Events single clean</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="{% url 'index' %}#gallery" role="button"
+                            >Gallery</a
+                          >
+                        </li>
+                        <li>
+                          <a href="{% url 'contact' %}" role="button"
+                            >Contact</a
+                          >
+                        </li>
+                      </ul>
+                      <!-- .nav.navbar-nav end -->
+                    </div>
+                    <!-- navbar end -->
+                  </nav>
+                  <!-- .navbar.navbar-default end -->
+                </div>
+                <!-- .main-nav end -->
+              </div>
+              <!-- .col-md-12 end -->
+            </div>
+            <!-- .row end -->
+          </div>
+          <!-- .container end -->
+        </div>
+        <!-- .header-inner end -->
+      </header>
+      <!-- #header end -->
+    </div>
+    <!-- .header-wrapper.header-transparent.header-style-01 end -->
+
+    {% block content %} {% endblock %}
+    <div
+      id="contact"
+      class="page-content custom-background bkg-dark-grey pt-100 pb-100"
+    >
+      <!-- .container start -->
+      <div class="container">
+        <!-- .row start -->
+        <div class="row mb-0">
+          <!-- .col-md-12 start -->
+          <div class="col-md-12 mb-0">
+            <!-- call-to-action start -->
+            <div class="call-to-action clearfix">
+              <!-- .custom-heading-01 start -->
+              <div
+                class="custom-heading-01 triggerAnimation animated"
+                data-animate="fadeInUp"
+              >
+                <h2>join dave’s mailing list</h2>
+              </div>
+              <!-- .custom-heading-01 end -->
+
+              <div class="newsletter">
+                <form>
+                  <input
+                    class="email"
+                    type="email"
+                    name="your-email"
+                    placeholder="Your email address.."
+                  />
+                  <input class="submit" type="submit" value="Subscribe" />
+
+                  <input name="action" type="hidden" />
+                </form>
+              </div>
+            </div>
+            <!-- .call-to-action end -->
+          </div>
+          <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+      </div>
+      <!-- .container end -->
+    </div>
+    <!-- #footer-wrapper start -->
+    <div id="footer-wrapper">
+      <!-- #copyright-container start -->
+      <div id="copyright-container" class="copyright-container">
+        <!-- .container start -->
+        <div class="container">
+          <!-- .row start -->
+          <div class="row">
+            <!-- .col-md-6 start -->
+            <div class="col-md-6 col-sm-6">
+              <p>
+                Managed by
+                <a href="http://www.pksl.art">PKSL Web Design</a>. All rights
+                reserved.
+              </p>
+            </div>
+            <!-- .col-md-6 end -->
+
+            <!-- .footer-widget-container start -->
+            <ul
+              class="footer-widget-container col-md-6 col-sm-6 col-xs-12 copyright-right"
+            >
+              <li class="widget social-links clearfix">
+                <!-- social links start -->
+                <ul class="social-links">
+                  <li>
+                    <a
+                      target="_blank"
+                      href="http://soundcloud.com"
+                      class="fa fa-soundcloud"
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/pixel.industry.themes/"
+                      class="fa fa-facebook"
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a
+                      target="_blank"
+                      href="http://lastfm.com"
+                      class="fa fa-lastfm"
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a
+                      target="_blank"
+                      href="http://youtube.com"
+                      class="fa fa-youtube"
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://twitter.com/pixel_industry"
+                      class="fa fa-twitter"
+                    ></a>
+                  </li>
+
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://instagram.com"
+                      class="fa fa-instagram"
+                    ></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <!-- .footer-widget-container end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </div>
+      <!-- #copyright-container end -->
+
+      <a href="home-page-music-artist.html#" class="scroll-up">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+    <!-- #footer-wrapper end -->
+
+    <!-- facebook scripts -->
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0"
+      nonce="5bjTfZPn"
+    ></script>
+    <!-- Required js scripts -->
+    <script src="{% static 'js/jquery-core.js' %}"></script>
+    <!-- jQuery library  - must be included in all HTML files -->
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <!-- Bootstrap script - must be included in all HTML files -->
+    <script src="{% static 'js/jquery-scripts.js' %}"></script>
+    <!-- Additional scripts - must be included in all HTML files -->
+    <script src="{% static 'masterslider/masterslider.min.js' %}"></script>
+    <!-- Master slider main js -->
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <!-- used for image lightbox -->
+    <script src="{% static 'owl-carousel/owl.carousel.min.js' %}"></script>
+    <!-- Carousels script -->
+    <script src="{% static 'js/instagram-stream.jquery.js' %}"></script>
+    <!-- Instagram stream plugin -->
+    <script src="{% static 'js/volcanno.include.js' %}"></script>
+    <!-- Custom jQuery functions - must be included in all HTML files -->
+
+    <script>
+      /* <![CDATA[ */
+      jQuery(document).ready(function ($) {
+        "use strict";
+
+        // MASTER SLIDER START
+        VolcannoInclude.masterSliderInit("masterslider-artist");
+
+        // INCLUDE TESTIMONIAL CAROUSEL
+        VolcannoInclude.owlCarouselInit("testimonial-carousel");
+        // INCLUDE LATEST POSTS CAROUSEL
+        VolcannoInclude.owlCarouselInit("latest-posts-carousel-01");
+        // INCLUDE GALLERY
+        VolcannoInclude.magnificPopupInit("gallery-items");
+
+        function equalHeight() {
+          $('.page-content.column-img-bkg *[class*="custom-col-padding"]').each(
+            function () {
+              var maxHeight = $(this).outerHeight();
+              $('.page-content.column-img-bkg *[class*="bkg-img"]').height(
+                maxHeight
+              );
+            }
+          );
+        }
+        $(document).ready(equalHeight);
+        $(window).resize(equalHeight);
+
+        //CONTACT FORM AJAX
+        VolcannoInclude.contactFormAjax("newsletter");
+
+        //INSTAGRAM STREAM
+        VolcannoInclude.instagramStream();
+      });
+      /* ]]> */
+    </script>
+  </body>
+</html>
