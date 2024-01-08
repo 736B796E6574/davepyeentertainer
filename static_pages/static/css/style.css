@@ -8253,3 +8253,7 @@ a.download-link::after {
 .footer-widget-container {
   list-style-type: none;
 }
+
+#logo {
+  border: 1px solid #fafafa;
+}
