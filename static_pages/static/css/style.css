@@ -8254,6 +8254,7 @@ a.download-link::after {
   list-style-type: none;
 }
 
-#logo {
+#logo-text {
   border: 1px solid #fafafa;
+  padding: 5px;
 }

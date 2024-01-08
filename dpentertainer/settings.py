@@ -18,7 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = os.environ.get('DEV')
 
 ALLOWED_HOSTS = ['8000-736b796e657-davepyeente-jxwvqd1n3vj.ws-eu107.gitpod.io', 'davidpyeentertainer.com', 'www.davidpyeentertainer.com']
 
