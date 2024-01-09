@@ -20,7 +20,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEV')
 
-ALLOWED_HOSTS = ['8000-736b796e657-davepyeente-jxwvqd1n3vj.ws-eu107.gitpod.io', 'davidpyeentertainer.com', 'www.davidpyeentertainer.com']
+ALLOWED_HOSTS = ['8000-736b796e657-davepyeente-jxwvqd1n3vj.ws-eu107.gitpod.io', 'davidpyeentertainer.com', 'www.davidpyeentertainer.com', 'localhost', '127.0.0.1']
 
 # LOGGING = {
 #    'version': 1,
