@@ -46,7 +46,8 @@
           <h2>Your message</h2>
         </div>
         <!-- .custom-heading-04 end -->
-        <form action="#" method="post" class="wpcf7 wpcf7-form">
+        <form action="{% url 'contact' %}" method="post" class="wpcf7 wpcf7-form">
+          {% csrf_token %}
           <div class="contact-form-input-wrapper half-field">
             <label>Your name</label>
             <span class="wpcf7-form-control-wrap">
@@ -83,7 +84,7 @@
               ></textarea>
             </span>
           </div>
-          <input name="action" type="hidden" />
+          
 
           <div class="g-recaptcha" data-sitekey="SITE-KEY"></div>
           <input
