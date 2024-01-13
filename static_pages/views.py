@@ -2,10 +2,14 @@ from django.shortcuts import render, redirect
 from django.core.mail import send_mail
 from django.http import HttpResponse
 from django.conf import settings
-
+from .models import Event  # Import the Event model
 
 def index(request):
-    return render(request, 'index.html')
+    # Fetch events from the database
+    events = Event.objects.all()
+    
+    # Pass events to the template
+    return render(request, 'index.html', {'events': events})
 
 def contact_confirmation(request):
     return render(request, 'contact-confirmation.html')

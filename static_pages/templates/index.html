@@ -441,108 +441,30 @@
         <!-- .pi-events.events-style-01 start -->
         <div class="pi-events events-style-01">
           <!-- event start -->
+          {% for event in events %}
           <div class="events-row">
-            <div class="events-title-container events-cell">
-              <ul class="events-meta">
-                <li class="event-date">
-                  <i class="fa fa-calendar"></i> aug 21, 2016.
-                </li>
-                <li class="event-locations">Hulla Lounge London</li>
-              </ul>
-              <h5 class="event-title">
-                <a href="events-single-clean.html"
-                  >London Manifesto Late Spring Tour</a
-                >
-              </h5>
-            </div>
-            <div class="events-buttons events-cell">
-              <a href="events-single-clean.html" class="btn"
-                ><span>Read more <i class="fa fa-chevron-right"></i></span
-              ></a>
-              <a href="events-single-clean.html" class="btn btn-theme event-buy"
-                ><span><i class="fa fa-shopping-cart"></i></span
-              ></a>
-            </div>
+              <div class="events-title-container events-cell">
+                  <ul class="events-meta">
+                      <li class="event-date">
+                          <i class="fa fa-calendar"></i> {{ event.date|date:"M d, Y" }}.
+                      </li>
+                      <li class="event-locations">{{ event.location }}</li>
+                  </ul>
+                  <h5 class="event-title">
+                      <a href="{{ event.live_url }}">{{ event.title }}</a>
+                  </h5>
+              </div>
+              <div class="events-buttons events-cell">
+                  <a href="{{ event.live_url }}" class="btn">
+                      <span>Read more <i class="fa fa-chevron-right"></i></span>
+                  </a>
+                  <a href="{{ event.live_url }}" class="btn btn-theme event-buy">
+                      <span><i class="fa fa-headphones"></i></span>
+                  </a>
+              </div>
           </div>
-          <!-- event end -->
+          {% endfor %}
 
-          <!-- event start -->
-          <div class="events-row">
-            <div class="events-title-container events-cell">
-              <ul class="events-meta">
-                <li class="event-date">
-                  <i class="fa fa-calendar"></i> aug 24, 2016.
-                </li>
-                <li class="event-locations">Long City Bar Liverpool</li>
-              </ul>
-              <h5 class="event-title">
-                <a href="events-single-clean.html"
-                  >Inspiring Sounds Jazz Festival</a
-                >
-              </h5>
-            </div>
-            <div class="events-buttons events-cell">
-              <a href="events-single-clean.html" class="btn"
-                ><span>Read more <i class="fa fa-chevron-right"></i></span
-              ></a>
-              <a
-                href="events-single-clean.html"
-                class="btn btn-theme event-buy event-sold-out"
-                ><span><i class="fa fa-shopping-cart"></i></span
-              ></a>
-            </div>
-          </div>
-          <!-- event end -->
-
-          <!-- event start -->
-          <div class="events-row">
-            <div class="events-title-container events-cell">
-              <ul class="events-meta">
-                <li class="event-date">
-                  <i class="fa fa-calendar"></i> aug 24, 2016.
-                </li>
-                <li class="event-locations">Lounge bar Matrix, Berlin</li>
-              </ul>
-              <h5 class="event-title">
-                <a href="events-single-clean.html"
-                  >Evelyn Burke Quartet - Here Comes Jazz</a
-                >
-              </h5>
-            </div>
-            <div class="events-buttons events-cell">
-              <a href="events-single-clean.html" class="btn"
-                ><span>Read more <i class="fa fa-chevron-right"></i></span
-              ></a>
-              <a href="events-single-clean.html" class="btn btn-theme event-buy"
-                ><span><i class="fa fa-shopping-cart"></i></span
-              ></a>
-            </div>
-          </div>
-
-          <!-- event start -->
-          <div class="events-row">
-            <div class="events-title-container events-cell">
-              <ul class="events-meta">
-                <li class="event-date">
-                  <i class="fa fa-calendar"></i> aug 24, 2016.
-                </li>
-                <li class="event-locations">City Square, London</li>
-              </ul>
-              <h5 class="event-title">
-                <a href="events-single-clean.html"
-                  >Found raising London - Charity Concert</a
-                >
-              </h5>
-            </div>
-            <div class="events-buttons events-cell">
-              <a href="events-single-clean.html" class="btn"
-                ><span>Read more <i class="fa fa-chevron-right"></i></span
-              ></a>
-              <a href="events-single-clean.html" class="btn btn-theme event-buy"
-                ><span><i class="fa fa-shopping-cart"></i></span
-              ></a>
-            </div>
-          </div>
           <!-- event end -->
         </div>
         <!-- .pi-events.events-style-01 end -->
