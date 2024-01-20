@@ -49,50 +49,64 @@
         <form action="{% url 'contact' %}" method="post" class="wpcf7 wpcf7-form">
           {% csrf_token %}
           <div class="contact-form-input-wrapper half-field">
-            <label>Your name</label>
-            <span class="wpcf7-form-control-wrap">
-              <input
-                type="text"
-                name="your-name"
-                size="40"
-                class="wpcf7-text"
-                placeholder="Your name"
-              />
-            </span>
+              <label>Your name</label>
+              <span class="wpcf7-form-control-wrap">
+                  <input
+                      type="text"
+                      name="your-name"
+                      size="40"
+                      class="wpcf7-text"
+                      placeholder="Your name"
+                  />
+              </span>
           </div>
           <div class="contact-form-input-wrapper half-field field-with-margin">
-            <label>Your email</label>
-            <span class="wpcf7-form-control-wrap">
-              <input
-                type="email"
-                name="your-email"
-                size="40"
-                class="wpcf7-email"
-                placeholder="email@gmail.com"
-              />
-            </span>
+              <label>Your email</label>
+              <span class="wpcf7-form-control-wrap">
+                  <input
+                      type="email"
+                      name="your-email"
+                      size="40"
+                      class="wpcf7-email"
+                      placeholder="email@gmail.com"
+                  />
+              </span>
+          </div>
+          <div class="contact-form-input-wrapper half-field">
+              <label>Your phone</label>
+              <span class="wpcf7-form-control-wrap">
+                  <input
+                      type="text"
+                      name="your-phone"
+                      size="40"
+                      class="wpcf7-text"
+                      placeholder="Your phone number"
+                      pattern="[\+]?[0-9]{1,29}"
+                      title="Phone number (up to 29 digits, optional '+' prefix)"
+                  />
+              </span>
           </div>
           <div class="contact-form-input-wrapper">
-            <label>Your message</label>
-            <span class="wpcf7-form-control-wrap">
-              <textarea
-                name="your-message"
-                cols="40"
-                rows="10"
-                class="wpcf7-textarea"
-                placeholder="Your message"
-              ></textarea>
-            </span>
+              <label>Your message</label>
+              <span class="wpcf7-form-control-wrap">
+                  <textarea
+                      name="your-message"
+                      cols="40"
+                      rows="10"
+                      class="wpcf7-textarea"
+                      placeholder="Your message"
+                  ></textarea>
+              </span>
           </div>
-          
-
+      
           <div class="g-recaptcha" data-sitekey="SITE-KEY"></div>
           <input
-            type="submit"
-            value="Send"
-            class="wpcf7-form-control wpcf7-submit"
+              type="submit"
+              value="Send"
+              class="wpcf7-form-control wpcf7-submit"
           />
-        </form>
+      </form>
+      
       </div>
       <!-- .col-md-8 end -->
     </div>

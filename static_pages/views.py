@@ -18,13 +18,14 @@ def contact(request):
     if request.method == 'POST':
         name = request.POST.get('your-name')
         email = request.POST.get('your-email')
+        phone = request.POST.get('your-phone')  # Get the phone number from the form
         message = request.POST.get('your-message')
 
         if not name or not email or not message:
             # Add your error message or handling here
             return HttpResponse("Please fill all the fields in the form.")
 
-        email_body = f"Name: {name}\nEmail: {email}\nMessage: {message}"
+        email_body = f"Name: {name}\nEmail: {email}\nPhone: {phone}\nMessage: {message}"  # Include the phone in the email body
 
         try:
             send_mail(
@@ -41,4 +42,3 @@ def contact(request):
             return HttpResponse(f"Error sending email: {str(e)}")
 
     return render(request, 'contact.html')
-
